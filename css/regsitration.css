@@ -1,0 +1,19 @@
+
+/* The navigation bar custome css goes here */
+.navbar {
+    background-color: #454545;
+}
+.navbar a {
+    color: rgb(206, 205, 205);
+}
+
+/* The sub-header custom css goes here */
+
+.regSubHeader a{
+text-decoration: none;
+color: #454545;
+font-size: 14px;
+}
+
+/* Custom CSS for our footer page goes here */
+

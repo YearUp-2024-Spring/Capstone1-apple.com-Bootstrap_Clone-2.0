@@ -1,0 +1,11 @@
+/* The navigation bar custome css goes here */
+.loginSubHeader a {
+    color: rgb(126, 125, 125);
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.logInforgotPassword i {
+    color: blue;
+}

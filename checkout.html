@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="css/products.css" rel="stylesheet" />
-    <link href="css/macProducts.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -114,302 +114,255 @@
         </nav>
     </header>
 
-    <!-- Here is the sub-header of our mac Products page -->
+    <!-- Here is the sub-header of our check out page -->
 
-    <div class="container macSubHeader hstack gap-4 py-3">
+    <div class="container hstack gap-4 checkoutHeader">
         <div>
-            <h3>MacBook Air</h3>
+            <h3>Checkout</h3>
         </div>
-        <div class="p-2 ms-auto"><a href="login.html">Overview</a></div>
-        <div class="p-2"><a href="registration.html">macOS</a></div>
-        <div class="p-2"><a href="https://appleid.apple.com/faq">Compare</a></div>
+        <div class="p-2 ms-auto"><a href="#">Show Order Summary: $2,317.39</a></div>
     </div>
+    <hr>
 
-    <!-- Here is the second sub-header for our mac products page -->
-
-    <div class="container-fluid macSubHeader2 p-4">
-        <div class="col-lg-12 text-center lh-1 border-top">
-            <p class="text-body-secondary">
-                Pay for your new Mac over 12 months at 0% APR with Apple Card. Just
-                choose Apple Card Monthly Installments when you check out to apply.
-            </p>
-            <a href="https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m2">Learn More</a>
-        </div>
-    </div>
-
-    <!-- Here is the main content of our mac products page -->
+    <!-- Here is the main content of our check out page -->
 
     <main>
-
         <div class="container">
 
-            <!-- Here is the title section for our mac products -->
+            <!-- Here is the title section for our check out products -->
 
             <div>
                 <div class="text-center m-5 p-3">
-                    <h1 class="fw-bold">Choose your new MacBook Air.</h1>
+                    <h1 class="fw-bold">How would you like to get your order?</h1>
                 </div>
                 <div class="row m-5 macOptions d-flex justify-content-center">
-                    <div class="col-lg-2 text-center border">
-                        <h5>13-inch (M2 chip)</h5>
-                        <p class="text-body-secondary">From $999</p>
+                    <div class="col-lg-2 d-flex align-items-center border">
+                        <div class="px-3"><i class="bi bi-box-seam"></i></div>
+                        <h5>I'd like it delivered</h5>
                     </div>
-                    <div class="col-lg-2 text-center border">
-                        <h5>13-inch (M3 chip)</h5>
-                        <p class="text-body-secondary">From $1099</p>
+                    <div class="col-lg-2 d-flex align-items-center border">
+                        <div class="px-3"><i class="bi bi-bag-check"></i></div>
+                        <h5>I'll pick it up</h5>
                     </div>
-                    <div class="col-lg-2 text-center border">
-                        <h5>15-inch (M3 chip)</h5>
-                        <p class="text-body-secondary">From $1299</p>
+                </div>
+                
+            </div>
+            <hr>
+
+            <!-- Here are the check out items section -->
+
+            <div>
+                <div class="mt-5">
+                    <h3>Here are your items.</h3>
+                </div>
+                <div class="row macDescription py-2 mb-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="/images/iphone-15-plus-black-select-202309.jfif" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Iphone 15 Plus 256GB Black</h5>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last added to cart 23 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="/images/MT213.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Iphone 15 Plus Clear Case</h5>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last added to cart 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="/images/pc.png" class="card-img-top pt-5 pb-5" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">13-inch MacBook Air with M3 chip - Midnight</h5>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-body-secondary">Last added to cart 45 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <hr>
 
-            <!-- Chat with our mac specialist chat section -->
+            <!-- Here is the shipping address section -->
 
-            <div class="text-center chatSection">
+            <div class="container">
                 <div>
-                    <i class="bi bi-chat-quote"></i>
-                </div>
-                <div>
-                    <h3>Have questions about buying a Mac?</h3>
-                </div>
-                <div>
-                    <a href="https://contactretail.apple.com/Solutions">Chat with a Mac Specialist</a>
+                    <div class="my-5">
+                        <h1 class="fw-bold">Where should we send your order?</h1>
+                    </div>
+                    <div class="mb-5">
+                        <h3>Input your address:</h3>
+                    </div>
+                    <div class="mb-5">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-4">
+                                <label for="validationCustom01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please write your First Name!
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustom02" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please write your Last Name!
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Street Address</label>
+                                <div class="input-group has-validation">
+                                    <input type="number" class="form-control" id="validationStreetAddress"
+                                        aria-describedby="inputGroupPrepend" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    <div class="invalid-feedback">
+                                        Please write your street address
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">City</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom04" class="form-label">State</label>
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option value="1">AL</option>
+                                    <option value="2">AZ</option>
+                                    <option value="3">AR</option>
+                                    <option value="1">CA</option>
+                                    <option value="2">CO</option>
+                                    <option value="3">CZ</option>
+                                    <option value="1">CT</option>
+                                    <option value="2">GA</option>
+                                    <option value="3">GU</option>
+                                </select>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="validationCustom05" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check needs-validation mb-4" novalidate>
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" >
+                                    <label class="form-check-label" for="gridCheck">
+                                        Save Shipping Information
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
                 </div>
             </div>
 
-            <!-- Here are the mac products for sale section -->
+            <!-- Here is the payment information section -->
 
-            <div class="row macDescription py-5">
-                <div class="col-lg-4 macSale">
-                    <div>
-                        <img src="/images/mba15-midnight-select-202306.png" width="300px" />
-                    </div>
-                    <div class="pt-3 fw-semibold">
-                        <p class="text-body-secondary">Midnight</p>
+            <div class="container">
+                <div>
+                    <div class="my-5">
+                        <h1 class="fw-bold">How do you want to pay?</h1>
                     </div>
                     <div>
-                        <p class="text-body-secondary">New</p>
+                        <h5>Enter your card information</h5>
                     </div>
-                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
-                    <div class="pt-4">
-                        <h4>8-Core CPU</h4>
-                        <h4>8-Core GPU</h4>
-                        <h4>8GB Unified Memory</h4>
-                        <h4>256GB SSD Storage</h4>
+                    <div>
+                        <form class="row needs-validation" novalidate>
+                            <div class="col-lg-4">
+                                <label for="inputCardNumber" class="form-label"></label>
+                                <input type="number" class="form-control" id="inputCardNumber"
+                                    placeholder="Credit/Debit Card Number" requried>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please write the correct Card Number!
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <label for="inputExpirationDate" class="form-label"></label>
+                                <input type="number" class="form-control" id="inputAddress2"
+                                    placeholder="Expiration MM/YY" requried>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please write the correct Expiration Date!
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <label for="inputCVV" class="form-label"></label>
+                                <input type="number" class="form-control" id="inputCVV" placeholder="CVV" requried>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please write the correct cvv!
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check needs-validation mb-4" novalidate>
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Save Payment Information
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="pt-3">
-                        <p>
-                            16-core Neural Engine <br />
-                            13.6-inch Liquid Retina display with <br />
-                            True Tone <br />
-                            1080p FaceTime HD Camera <br />
-                            MagSafe 3 charging port <br />
-                            Two Thunderbolt / USB 4 ports <br />
-                            Support for up to two external displays <br />
-                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
-                            <br />Force Touch trackpad <br />
-                            35W Dual USB-C Port Compact Power<br />Adapter
-                        </p>
-                        <h4>$1,099.00</h4>
-                        <p>or</p>
-                        <h4>$91.58/mo. for 12mo.*</h4>
-                        <p>
-                            <a
-                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
-                                3% Daily Cash with Apple Card</a>
-                        </p>
-                        <p class="fw-semibold">Apple Trade In</p>
-                        <p>
-                            Get credit toward a new Mac when you<br />
-                            trade in your eligible computer. Or recycle<br />
-                            it for free.
-                        </p>
-                        <a href="#">How does traide-in work?</a> <br />
-                        <a href="#">Get started</a>
-                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
-                            <button type="button" class="btn btn-primary btn-lg">
-                                Select
-                            </button>
-                        </div>
-                        <div class="mb-4">
-                            <p class="fw-semibold">Need a moment?</p>
-                            <p>
-                                Keep all your selections by saving this<br />
-                                device to Your Saves, then come back <br />anytime and pickup
-                                right where you left<br />
-                                off.
-                            </p>
-                            <a
-                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
-                                    class="bi bi-bookmark"></i> Save for later</a>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-bag-check px-2"></i>
-                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-truck px-2"></i>
-                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
-                                    <br> 1:30p.m. -$9.00 <br>
-                                    Tomorrow - Free</b></p>
-                        </div>
-                    </div>
+                    <hr>
                 </div>
-                <div class="col-lg-4 macSale">
-                    <div>
-                        <img src="/images/mba15-spacegray-select-202306.png" width="300px" />
-                    </div>
-                    <div class="pt-3 fw-semibold">
-                        <p class="text-body-secondary">Space Grey</p>
-                    </div>
-                    <div>
-                        <p class="text-body-secondary">New</p>
-                    </div>
-                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
-                    <div class="pt-4">
-                        <h4>8-Core CPU</h4>
-                        <h4>10-Core GPU</h4>
-                        <h4>8GB Unified Memory</h4>
-                        <h4>512GB SSD Storage</h4>
-                    </div>
-                    <div class="pt-3">
-                        <p>
-                            16-core Neural Engine <br />
-                            13.6-inch Liquid Retina display with <br />
-                            True Tone <br />
-                            1080p FaceTime HD Camera <br />
-                            MagSafe 3 charging port <br />
-                            Two Thunderbolt / USB 4 ports <br />
-                            Support for up to two external displays <br />
-                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
-                            <br />Force Touch trackpad <br />
-                            35W Dual USB-C Port Compact Power<br />Adapter
-                        </p>
-                        <h4>$1,299.00</h4>
-                        <p>or</p>
-                        <h4>$108.25/mo. for 12mo.*</h4>
-                        <p>
-                            <a
-                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
-                                3% Daily Cash with Apple Card</a>
-                        </p>
-                        <p class="fw-semibold">Apple Trade In</p>
-                        <p>
-                            Get credit toward a new Mac when you<br />
-                            trade in your eligible computer. Or recycle<br />
-                            it for free.
-                        </p>
-                        <a href="#">How does traide-in work?</a> <br />
-                        <a href="#">Get started</a>
-                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
-                            <button type="button" class="btn btn-primary btn-lg">
-                                Select
-                            </button>
-                        </div>
-                        <div class="mb-4">
-                            <p class="fw-semibold">Need a moment?</p>
-                            <p>
-                                Keep all your selections by saving this<br />
-                                device to Your Saves, then come back <br />anytime and pickup
-                                right where you left<br />
-                                off.
-                            </p>
-                            <a
-                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
-                                    class="bi bi-bookmark"></i> Save for later</a>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-bag-check px-2"></i>
-                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-truck px-2"></i>
-                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
-                                    <br> 1:30p.m. -$9.00 <br>
-                                    Tomorrow - Free</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 macSale">
-                    <div>
-                        <img src="/images/mba15-starlight-select-202306.png" width="300px" />
-                    </div>
-                    <div class="pt-3 fw-semibold">
-                        <p class="text-body-secondary">Starlight</p>
-                    </div>
-                    <div>
-                        <p class="text-body-secondary">New</p>
-                    </div>
-                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
-                    <div class="pt-4">
-                        <h4>8-Core CPU</h4>
-                        <h4>10-Core GPU</h4>
-                        <h4>16GB Unified Memory</h4>
-                        <h4>512GB SSD Storage</h4>
-                    </div>
-                    <div class="pt-3">
-                        <p>
-                            16-core Neural Engine <br />
-                            13.6-inch Liquid Retina display with <br />
-                            True Tone <br />
-                            1080p FaceTime HD Camera <br />
-                            MagSafe 3 charging port <br />
-                            Two Thunderbolt / USB 4 ports <br />
-                            Support for up to two external displays <br />
-                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
-                            <br />Force Touch trackpad <br />
-                            35W Dual USB-C Port Compact Power<br />Adapter
-                        </p>
-                        <h4>$1,499.00</h4>
-                        <p>or</p>
-                        <h4>$124.91/mo. for 12mo.*</h4>
-                        <p>
-                            <a
-                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
-                                3% Daily Cash with Apple Card</a>
-                        </p>
-                        <p class="fw-semibold">Apple Trade In</p>
-                        <p>
-                            Get credit toward a new Mac when you<br />
-                            trade in your eligible computer. Or recycle<br />
-                            it for free.
-                        </p>
-                        <a href="#">How does traide-in work?</a> <br />
-                        <a href="#">Get started</a>
-                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
-                            <button type="button" class="btn btn-primary btn-lg">
-                                Select
-                            </button>
-                        </div>
-                        <div class="mb-4">
-                            <p class="fw-semibold">Need a moment?</p>
-                            <p>
-                                Keep all your selections by saving this<br />
-                                device to Your Saves, then come back <br />anytime and pickup
-                                right where you left<br />
-                                off.
-                            </p>
-                            <a
-                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
-                                    class="bi bi-bookmark"></i> Save for later</a>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-bag-check px-2"></i>
-                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
-                        </div>
-                        <div class="d-flex">
-                            <i class="bi bi-truck px-2"></i>
-                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
-                                    <br> 1:30p.m. -$9.00 <br>
-                                    Tomorrow - Free</b></p>
-                        </div>
-                    </div>
-                </div>
+            </div>
+
+            <!-- Here is the check out button section -->
+
+            <div class=" text-center mt-5">
+                <button type="submit" class="btn btn-primary">Check Out</button>
+            </div>
+        </div>
     </main>
 
-    <!-- Here is the footer of our mac products page -->
+    <!-- Here is the footer of our check out page -->
 
     <footer class="footer-wrapper">
         <div class="container">

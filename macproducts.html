@@ -1,359 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Apple</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="css/products.css" rel="stylesheet" />
-  </head>
+    <link href="css/macProducts.css" rel="stylesheet" />
+</head>
 
-  <body>
-    <!-- Here is the header of our products page -->
+<body>
+
+    <!-- Here is the header of our mac products page -->
 
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                ><svg
-                  height="45"
-                  viewBox="0 8 14 44"
-                  width="20"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"
-                  ></path></svg
-              ></a>
-            </li>
-          </ul>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            fill="currentColor"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Store
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Shop</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li><a class="dropdown-item" href="#">Shop the Latest</a></li>
-                  <li>
-                    <a class="dropdown-item" href="https://www.apple.com/mac/"
-                      >Mac</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://www.apple.com/ipad/"
-                      >i Pad</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.apple.com/iphone/"
-                      >i Phone</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://www.apple.com/watch/"
-                      >Apple Watch</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.apple.com/apple-vision-pro/"
-                      >Vision</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.apple.com/shop/accessories/all"
-                      >Accessories</a
-                    >
-                  </li>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><svg height="45" viewBox="0 8 14 44" width="20"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z">
+                                </path>
+                            </svg></a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.apple.com/mac/">Mac</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.apple.com/ipad/">iPad</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.apple.com/iphone/"
-                  >iPhone</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.apple.com/watch/"
-                  >Watch</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.apple.com/apple-vision-pro/"
-                  >Vision</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.apple.com/shop/accessories/all"
-                  >Accessories</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.apple.com/tv-home/"
-                  >TV & Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="checkout.html"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
-                    /></svg
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="checkout.html"
-                  ><svg
-                    height="44"
-                    viewBox="0 8 14 44"
-                    width="14"
-                    fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"
-                    ></path></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" fill="currentColor">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Store
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="products.html">Shop</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="products.html">Shop the Latest</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.apple.com/mac/">Mac</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.apple.com/ipad/">i Pad</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.apple.com/iphone/">i Phone</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.apple.com/watch/">Apple Watch</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.apple.com/apple-vision-pro/">Vision</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/mac/">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/ipad/">iPad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/iphone/">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/watch/">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/apple-vision-pro/">Vision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/tv-home/">TV & Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html"><svg height="44" viewBox="0 8 14 44" width="14"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z">
+                                    </path>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <!-- Here is the main content of our products page -->
+    <!-- Here is the sub-header of our mac Products page -->
+
+    <div class="container macSubHeader hstack gap-4 py-3">
+        <div>
+            <h3>MacBook Air</h3>
+        </div>
+        <div class="p-2 ms-auto"><a href="login.html">Overview</a></div>
+        <div class="p-2"><a href="registration.html">macOS</a></div>
+        <div class="p-2"><a href="https://appleid.apple.com/faq">Compare</a></div>
+    </div>
+
+    <!-- Here is the second sub-header for our mac products page -->
+
+    <div class="container-fluid macSubHeader2 p-4">
+        <div class="col-lg-12 text-center lh-1 border-top">
+            <p class="text-body-secondary">
+                Pay for your new Mac over 12 months at 0% APR with Apple Card. Just
+                choose Apple Card Monthly Installments when you check out to apply.
+            </p>
+            <a href="https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m2">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Here is the main content of our mac products page -->
 
     <main>
-      <div class="container">
-        <div class="d-inline-flex justify-content-between">
-          <div class="col-lg-8 fs-1 fw-boldder lh-1 mt-5 px-5">
-            <b>Store.</b> The best way to buy the products you love.
-          </div>
-          <div class="d-flex-column mt-5">
+
+        <div class="container">
+
+            <!-- Here is the title section for our mac products -->
+
             <div>
-              Need Shopping Help?
-              <p class="text-body-secondary">Ask a Specialist</p>
-            </div>
-            <div class="mb-5">
-              Visit an Apple Store
-              <p class="text-body-secondary">Find one near you</p>
-            </div>
-          </div>
-        </div>
-        <!-- Here are the main cards for our products -->
-        <div>
-          <div class="mainCards row mt-5 row-cols-1 row-cols-md-3 g-4">
-            <div class="">
-              <div class="card">
-                <a href="https://www.apple.com/shop/buy-mac">
-                  <img
-                    src="./images/store-card-13-mac-nav-202310.png"
-                    class="card-img-top"
-                    alt="mac"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Mac</h5>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-iphone-nav-202309_GEO_US.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">iphone</h5>
+                <div class="text-center m-5 p-3">
+                    <h1 class="fw-bold">Choose your new MacBook Air.</h1>
                 </div>
-              </div>
-            </div>
-            <div class="">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-ipad-nav-202210.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">iPad</h5>
+                <div class="row m-5 macOptions d-flex justify-content-center">
+                    <div class="col-lg-2 text-center border">
+                        <h5>13-inch (M2 chip)</h5>
+                        <p class="text-body-secondary">From $999</p>
+                    </div>
+                    <div class="col-lg-2 text-center border">
+                        <h5>13-inch (M3 chip)</h5>
+                        <p class="text-body-secondary">From $1099</p>
+                    </div>
+                    <div class="col-lg-2 text-center border">
+                        <h5>15-inch (M3 chip)</h5>
+                        <p class="text-body-secondary">From $1299</p>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-watch-nav-202309.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Apple Watch</h5>
+
+            <!-- Chat with our mac specialist chat section -->
+
+            <div class="text-center chatSection">
+                <div>
+                    <i class="bi bi-chat-quote"></i>
                 </div>
-              </div>
-            </div>
-            <div class="">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-vision-pro-nav-202401.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Apple Vision Pro</h5>
+                <div>
+                    <h3>Have questions about buying a Mac?</h3>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-airpods-nav-202209.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Air Pods</h5>
+                <div>
+                    <a href="https://contactretail.apple.com/Solutions">Chat with a Mac Specialist</a>
                 </div>
-              </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-airtags-nav-202108.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Air Tag</h5>
+
+            <!-- Here are the mac products for sale section -->
+
+            <div class="row macDescription py-5">
+                <div class="col-lg-4 macSale">
+                    <div>
+                        <img src="/images/mba15-midnight-select-202306.png" width="300px" />
+                    </div>
+                    <div class="pt-3 fw-semibold">
+                        <p class="text-body-secondary">Midnight</p>
+                    </div>
+                    <div>
+                        <p class="text-body-secondary">New</p>
+                    </div>
+                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
+                    <div class="pt-4">
+                        <h4>8-Core CPU</h4>
+                        <h4>8-Core GPU</h4>
+                        <h4>8GB Unified Memory</h4>
+                        <h4>256GB SSD Storage</h4>
+                    </div>
+                    <div class="pt-3">
+                        <p>
+                            16-core Neural Engine <br />
+                            13.6-inch Liquid Retina display with <br />
+                            True Tone <br />
+                            1080p FaceTime HD Camera <br />
+                            MagSafe 3 charging port <br />
+                            Two Thunderbolt / USB 4 ports <br />
+                            Support for up to two external displays <br />
+                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
+                            <br />Force Touch trackpad <br />
+                            35W Dual USB-C Port Compact Power<br />Adapter
+                        </p>
+                        <h4>$1,099.00</h4>
+                        <p>or</p>
+                        <h4>$91.58/mo. for 12mo.*</h4>
+                        <p>
+                            <a
+                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
+                                3% Daily Cash with Apple Card</a>
+                        </p>
+                        <p class="fw-semibold">Apple Trade In</p>
+                        <p>
+                            Get credit toward a new Mac when you<br />
+                            trade in your eligible computer. Or recycle<br />
+                            it for free.
+                        </p>
+                        <a href="#">How does traide-in work?</a> <br />
+                        <a href="#">Get started</a>
+                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Select
+                            </button>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-semibold">Need a moment?</p>
+                            <p>
+                                Keep all your selections by saving this<br />
+                                device to Your Saves, then come back <br />anytime and pickup
+                                right where you left<br />
+                                off.
+                            </p>
+                            <a
+                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
+                                    class="bi bi-bookmark"></i> Save for later</a>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-bag-check px-2"></i>
+                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-truck px-2"></i>
+                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
+                                    <br> 1:30p.m. -$9.00 <br>
+                                    Tomorrow - Free</b></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-appletv-nav-202210.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Apple TV 4K</h5>
+                <div class="col-lg-4 macSale">
+                    <div>
+                        <img src="/images/mba15-spacegray-select-202306.png" width="300px" />
+                    </div>
+                    <div class="pt-3 fw-semibold">
+                        <p class="text-body-secondary">Space Grey</p>
+                    </div>
+                    <div>
+                        <p class="text-body-secondary">New</p>
+                    </div>
+                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
+                    <div class="pt-4">
+                        <h4>8-Core CPU</h4>
+                        <h4>10-Core GPU</h4>
+                        <h4>8GB Unified Memory</h4>
+                        <h4>512GB SSD Storage</h4>
+                    </div>
+                    <div class="pt-3">
+                        <p>
+                            16-core Neural Engine <br />
+                            13.6-inch Liquid Retina display with <br />
+                            True Tone <br />
+                            1080p FaceTime HD Camera <br />
+                            MagSafe 3 charging port <br />
+                            Two Thunderbolt / USB 4 ports <br />
+                            Support for up to two external displays <br />
+                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
+                            <br />Force Touch trackpad <br />
+                            35W Dual USB-C Port Compact Power<br />Adapter
+                        </p>
+                        <h4>$1,299.00</h4>
+                        <p>or</p>
+                        <h4>$108.25/mo. for 12mo.*</h4>
+                        <p>
+                            <a
+                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
+                                3% Daily Cash with Apple Card</a>
+                        </p>
+                        <p class="fw-semibold">Apple Trade In</p>
+                        <p>
+                            Get credit toward a new Mac when you<br />
+                            trade in your eligible computer. Or recycle<br />
+                            it for free.
+                        </p>
+                        <a href="#">How does traide-in work?</a> <br />
+                        <a href="#">Get started</a>
+                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Select
+                            </button>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-semibold">Need a moment?</p>
+                            <p>
+                                Keep all your selections by saving this<br />
+                                device to Your Saves, then come back <br />anytime and pickup
+                                right where you left<br />
+                                off.
+                            </p>
+                            <a
+                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
+                                    class="bi bi-bookmark"></i> Save for later</a>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-bag-check px-2"></i>
+                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-truck px-2"></i>
+                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
+                                    <br> 1:30p.m. -$9.00 <br>
+                                    Tomorrow - Free</b></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img
-                  src="/images/store-card-13-homepod-nav-202301.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Home Pod</h5>
+                <div class="col-lg-4 macSale">
+                    <div>
+                        <img src="/images/mba15-starlight-select-202306.png" width="300px" />
+                    </div>
+                    <div class="pt-3 fw-semibold">
+                        <p class="text-body-secondary">Starlight</p>
+                    </div>
+                    <div>
+                        <p class="text-body-secondary">New</p>
+                    </div>
+                    <div><img src="/images/mba-m3-icon-202402.png" width="50px" /></div>
+                    <div class="pt-4">
+                        <h4>8-Core CPU</h4>
+                        <h4>10-Core GPU</h4>
+                        <h4>16GB Unified Memory</h4>
+                        <h4>512GB SSD Storage</h4>
+                    </div>
+                    <div class="pt-3">
+                        <p>
+                            16-core Neural Engine <br />
+                            13.6-inch Liquid Retina display with <br />
+                            True Tone <br />
+                            1080p FaceTime HD Camera <br />
+                            MagSafe 3 charging port <br />
+                            Two Thunderbolt / USB 4 ports <br />
+                            Support for up to two external displays <br />
+                            (with laptop lid closed)<br />Magic Keyboard with Touch ID
+                            <br />Force Touch trackpad <br />
+                            35W Dual USB-C Port Compact Power<br />Adapter
+                        </p>
+                        <h4>$1,499.00</h4>
+                        <p>or</p>
+                        <h4>$124.91/mo. for 12mo.*</h4>
+                        <p>
+                            <a
+                                href="https://card.apple.com/apply/start?redirectId=aos-c6653e3fc18344abb9a1655a229e9413&referrer=cid%3Dapy-220-100013">Get
+                                3% Daily Cash with Apple Card</a>
+                        </p>
+                        <p class="fw-semibold">Apple Trade In</p>
+                        <p>
+                            Get credit toward a new Mac when you<br />
+                            trade in your eligible computer. Or recycle<br />
+                            it for free.
+                        </p>
+                        <a href="#">How does traide-in work?</a> <br />
+                        <a href="#">Get started</a>
+                        <div class="d-grid col-xl-10 col-lg-11 col-md-6 col-sm-9 pt-5 mb-4">
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Select
+                            </button>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-semibold">Need a moment?</p>
+                            <p>
+                                Keep all your selections by saving this<br />
+                                device to Your Saves, then come back <br />anytime and pickup
+                                right where you left<br />
+                                off.
+                            </p>
+                            <a
+                                href="https://secure6.store.apple.com/shop/signIn?ssi=1AAABjvHr1kAgUnsx3O3BmBhhFFHOsJdSSaDQ9JCyM2R1ZTgfqMc9M0QAAACyaHR0cHM6Ly93d3cuYXBwbGUuY29tL3Nob3AvZmF2b3JpdGVzeC9saXN0P19zPXRydWUmX3Q9YUhSMGNITTZMeTkzZDNjdVlYQndiR1V1WTI5dEwzTm9iM0F2WW5WNUxXMWhZeTl0WVdOaWIyOXJMV0ZwY253MmFXVlVVMjh5TkZRd1FYRlJLMmRCY2xWQk5HNUxkWFpIU1hSeVkybG9NMjFaV1dVMlozSnpVVmxCUFF8fAACAZxxMOnMzDzavCPr8JqLgZxCilhGCqLcWo4-MZBxLGZ9"><i
+                                    class="bi bi-bookmark"></i> Save for later</a>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-bag-check px-2"></i>
+                            <p>Order now. Pick up, in store: <br> <b>Today</b> at <a href="#">Apple Lenox Square</a></p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="bi bi-truck px-2"></i>
+                            <p>Order by 10:15 a.m. Delivers to <a href="#">30303</a><br><b>Today from Store 11:30a.m to
+                                    <br> 1:30p.m. -$9.00 <br>
+                                    Tomorrow - Free</b></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
 
+    <!-- Here is the footer of our mac products page -->
+
     <footer class="footer-wrapper">
-      <div class="container">
-        <div class="my-apple-wrapper mt-5 pt-3">
-          More ways to shop: <a href="#">Find an Apple Store</a> or
-          <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
+        <div class="container">
+            <div class="my-apple-wrapper mt-5 pt-3">
+                More ways to shop: <a href="#">Find an Apple Store</a> or
+                <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
+            </div>
+            <div class="copyright-wrapper row">
+                <div class="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1">
+                    Copyright &copy; 2024 Apple Inc. All rights reserved.
+                </div>
+                <div class="footer-links-terms hstack col-sm-12 order-3 col-lg-6 order-lg-2">
+                    <ul>
+                        <li class="px-2"><a href="#">Privacy Policy</a></li>
+                        <li class="px-2"><a href="#">Terms of Use</a></li>
+                        <li class="px-2"><a href="#">Sales and Refunds</a></li>
+                        <li class="px-2"><a href="#">Legal</a></li>
+                        <li class="px-2"><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-country col-sm-12 order-1 col-md-4 order-md-2 text-md-right col-lg-2 order-lg-3">
+                    <div class="footer-country-name">United States</div>
+                </div>
+            </div>
         </div>
-        <div class="copyright-wrapper row">
-          <div
-            class="copyright col-sm-12 order-2 col-md-8 order-md-1 col-lg-4 order-lg-1"
-          >
-            Copyright &copy; 2024 Apple Inc. All rights reserved.
-          </div>
-          <div
-            class="footer-links-terms hstack col-sm-12 order-3 col-lg-6 order-lg-2"
-          >
-            <ul>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Sales and Refunds</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Site Map</a></li>
-            </ul>
-          </div>
-          <div
-            class="footer-country col-sm-12 order-1 col-md-4 order-md-2 text-md-right col-lg-2 order-lg-3"
-          >
-            <div class="footer-country-name">United States</div>
-          </div>
-        </div>
-      </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="scripts/site.js"></script>
-  </body>
+</body>
+
 </html>

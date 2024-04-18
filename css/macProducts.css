@@ -1,0 +1,22 @@
+.macSubHeader a {
+  text-decoration: none;
+  color: currentColor;
+}
+.macSubHeader2 {
+    background-color: rgb(230, 227, 227);
+}
+.macSubHeader2 a{
+    text-decoration: none;
+}
+.chatSection a {
+text-decoration: none;
+color: blue;
+font-weight: 600;
+font-size: large;
+}
+.macDescription a{
+    text-decoration: none;
+}
+.macSale {
+    background-color: white;
+}

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Apple</title>
+    <link href="images/favicon.svg" rel="icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -134,104 +135,120 @@
                     <form>
                         <div class="row mb-3">
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="First Name" id="First Name" aria-describedby="FirstName">
+                                <input type="text" class="form-control" placeholder="First Name" id="First Name"
+                                    aria-describedby="FirstName">
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Last Name" id="Last Name" aria-describedby="LastName">
+                                <input type="text" class="form-control" placeholder="Last Name" id="Last Name"
+                                    aria-describedby="LastName">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <div class="col fs-6 fw-medium mb-3"><p>COUNTRY/REGION</p>
+                            <div class="col fs-6 fw-medium mb-3">
+                                <p>COUNTRY/REGION</p>
                                 <select class="form-select" id="floatingSelectGrid">
                                     <option selected>Choose your Country</option>
                                     <option value="1">Ethiopia</option>
                                     <option value="2">Russia</option>
                                     <option value="2">United States of America</option>
                                     <option value="3">United Arab Emirates</option>
-                                  </select>
-                                </div>
+                                </select>
+                            </div>
                             <div class="col mb-3">
-                            <input type="date" class="form-control" id="birthday" placeholder="Birthday"
-                                aria-describedby="emailHelp">
+                                <input type="date" class="form-control" id="birthday" placeholder="Birthday"
+                                    aria-describedby="emailHelp">
                             </div>
                         </div>
-                    <hr>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="name@example.com" id="exampleInputAppleID">
-                        <p class="card-text"><small class="text-body-secondary">This will be your new Apple ID.</small></p>
-                    </div>
-                    <div class="mb-3">
-                        <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3">
-                        <input type="password" class="form-control" id="passwordConfirm" placeholder="Confirm Password"
-                            aria-describedby="passwordConfirmHelp">
-                    </div>
-                    <hr>
-                    <div class="mb-3">
-                        <div class="col mb-3">
-                        <input type="number" class="form-control" id="Country" placeholder="Country Code"
-                            aria-describedby="CountryCode">
+                        <hr>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="name@example.com"
+                                id="exampleInputAppleID">
+                            <p class="card-text"><small class="text-body-secondary">This will be your new Apple
+                                    ID.</small></p>
                         </div>
-                        <div class="col mb-3">
-                        <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number"
-                            aria-describedby="phoneNumber">
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password"
+                                id="exampleInputPassword1">
                         </div>
-                        <div class="col mb-4">
-                            <p class="card-text">
-                                <small class="text-body-secondary">
-                                Be sure to enter a phone number you can always access. It will be used to verify your identity any time you sign in on a new device or web browser. Messaging or data rates may apply.
-                            </p>
-                        </small>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="passwordConfirm"
+                                placeholder="Confirm Password" aria-describedby="passwordConfirmHelp">
                         </div>
-                        <div class="col mb-3 d-flex gap-3">
-                            <div><p>Verify with:</p></div>
-                            <div class="form-check form-check-inline ms-auto">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Text Message</label>
-                              </div>
-                              <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">Phone Call</label>
-                              </div>
+                        <hr>
+                        <div class="mb-3">
+                            <div class="col mb-3">
+                                <input type="number" class="form-control" id="Country" placeholder="Country Code"
+                                    aria-describedby="CountryCode">
+                            </div>
+                            <div class="col mb-3">
+                                <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number"
+                                    aria-describedby="phoneNumber">
+                            </div>
+                            <div class="col mb-4">
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        Be sure to enter a phone number you can always access. It will be used to verify
+                                        your identity any time you sign in on a new device or web browser. Messaging or
+                                        data rates may apply.
+                                </p>
+                                </small>
+                            </div>
+                            <div class="col mb-3 d-flex gap-3">
+                                <div>
+                                    <p>Verify with:</p>
+                                </div>
+                                <div class="form-check form-check-inline ms-auto">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Text Message</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Phone Call</label>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class=" mb-3 form-check">
-                        <div class="col">
-                            <p>
-                                How Did you hear about us?
-                            </p>
+                        <hr>
+                        <div class=" mb-3 form-check">
+                            <div class="col">
+                                <p>
+                                    How Did you hear about us?
+                                </p>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
                                 <label class="form-check-label" for="flexRadioDefault1">
-                                  Referral
+                                    Referral
                                 </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                  Internet Ads
+                                    Internet Ads
                                 </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault3" checked>
                                 <label class="form-check-label" for="flexRadioDefault3">
-                                  Social Media
+                                    Social Media
                                 </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault4" checked>
                                 <label class="form-check-label" for="flexRadioDefault4">
-                                  Search Engines 
+                                    Search Engines
                                 </label>
-                              </div>
-                        
-                    </div>
-                    <div class=" text-center mt-5">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
+                            </div>
+
+                        </div>
+                        <div class=" text-center mt-5">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </form>
                 </div>
                 <div class="col-md-2"></div>
@@ -242,6 +259,7 @@
 
     </main>
 
+    <!-- Here is the footer our registration page -->
 
     <footer class="footer-wrapper">
         <div class="container">
@@ -268,7 +286,7 @@
                         <li class="px-2"><a href="#">Sales and Refunds</a></li>
                         <li class="px-2"><a href="#">Legal</a></li>
                         <li class="px-2"><a href="#">Site Map</a></li>
-                      </ul>
+                    </ul>
                 </div>
                 <div class="
                       footer-country

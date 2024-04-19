@@ -1,1 +1,1 @@
-# bootstrap-starter
+![alt text](<Checkout Page.JPG>) ![alt text](<Front Page-1.JPG>) ![alt text](<Login Page.JPG>) ![alt text](<Products Page.JPG>) ![alt text](<Registration Page.JPG>) ![alt text](<Specific Products Page.JPG>)

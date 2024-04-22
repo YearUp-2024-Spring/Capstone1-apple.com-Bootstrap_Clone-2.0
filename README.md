@@ -1,1 +1,1 @@
-![alt text](<Checkout Page.JPG>) ![alt text](<Front Page-1.JPG>) ![alt text](<Login Page.JPG>) ![alt text](<Products Page.JPG>) ![alt text](<Registration Page.JPG>) ![alt text](<Specific Products Page.JPG>)
+![Front Page](<Front Page-1.JPG>) ![Registration Page](<Registration Page.JPG>) ![Login Page](<Login Page.JPG>)   ![Products Page](<Products Page.JPG>)  ![Specific Products Page](<Specific Products Page.JPG>) ![Checkout Page](<Checkout Page.JPG>) 

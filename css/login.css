@@ -1,4 +1,12 @@
 /* The navigation bar custome css goes here */
+/* .container {
+    margin-bottom: 20px;
+} */
+.loginSubHeader {
+    height:50px;
+    margin-top: 40px;
+}
+
 .loginSubHeader a {
     color: rgb(126, 125, 125);
     text-decoration: none;

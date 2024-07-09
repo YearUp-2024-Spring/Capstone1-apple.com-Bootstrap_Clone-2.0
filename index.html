@@ -11,6 +11,9 @@
     <link href="css/site.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- Run BEFORE page is finished loading -->
+    <script src="scripts/auth.js"></script>
 </head>
 
 <body>
@@ -33,43 +36,94 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><i class="bi bi-list"></i></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse mainNav" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Store
                             </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="products.html">Shop</a>
+                            <ul class="dropdown-menu w-100">
+                                <li class="mb-3">
+                                    <a class="dropdown-item" href="products.html"><small>Shop</small></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <hr class="dropdown-divider" />
+                                </li> -->
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="products.html">Shop the Latest</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="products.html">Shop the Latest</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/mac/">Mac</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="https://www.apple.com/mac/">Mac</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/ipad/">iPad</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="https://www.apple.com/ipad/">i Pad</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/iphone/">iPhone</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="https://www.apple.com/iphone/">i Phone</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/watch/">Apple Watch</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="https://www.apple.com/watch/">Apple Watch</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="https://www.apple.com/apple-vision-pro/">Vision</a>
+                                    <a class="dropdown-item fs-5 fw-bold mb-5" href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                                </li>
+                            </ul>
+                            <ul class="dropdown-menu w-100">
+                                <li class="mb-3">
+                                    <a class="dropdown-item" href="products.html"><small>Quick Links</small></a>
+                                </li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider" />
+                                </li> -->
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="products.html">Find a Store</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item"
-                                        href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/mac/">Order Status</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/ipad/">Apple Trade In</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/iphone/">Financing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/watch/">College Student Offer</a>
+                                </li>
+                            </ul>
+                            <ul class="dropdown-menu w-100">
+                                <li class="mb-3">
+                                    <a class="dropdown-item" href="products.html"><small>Shop</small></a>
+                                </li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider" />
+                                </li> -->
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="products.html">Shop the Latest</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/mac/">Mac</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/ipad/">iPad</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/iphone/">iPhone</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/watch/">Apple Watch</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/apple-vision-pro/">Apple Vision Pro</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item fs-5 fw-bold" href="https://www.apple.com/shop/accessories/all">Accessories</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,10 +143,19 @@
                             <a class="nav-link" href="https://www.apple.com/apple-vision-pro/">Vision</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">AirPods</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.apple.com/tv-home/">TV & Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">Entertainment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.apple.com/shop/accessories/all">Support</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>

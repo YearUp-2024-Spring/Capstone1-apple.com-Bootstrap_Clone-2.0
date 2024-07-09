@@ -1,24 +1,53 @@
 
 /* Used this css to change the default action of dropdown menu from click to hover */
-body {
-    padding-top: 100px;
+/* body { */
+    /* padding-top: 100px; */
+/* } */
+.navBg {
+  background-color: white;
+  opacity: 0.8;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 /* Removed the dropdown button with this css */
 .dropdown-toggle::after {
     content: none;
 }
 .navbar {
-    padding-top: 28px;
+    height: 40px;
+    padding-top: 25px;
+}
+.navbar-transparent {
+  opacity: 0.9;
+}
+
+.dropdown {
+  position: static !important;
+}
+
+.dropdown-menu {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+  margin-top: 0px !important;
+  width: 100% !important;
+}
+
+.mainNav li {
+   font-size: small;
 }
 .messageTab {
     background-color:#1d1d1f;
     font-size: large;
     color: #f5f5f7;
-    height: 60px;
+    height:90px;
+    padding-top: 32px;
     display: grid;
     align-items: center;
 }
@@ -28,7 +57,37 @@ body {
 
 /* *************************************************** */
 
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .dropdown:hover .dropdown-menu {
+    /* display: block; */
+    background-color: #F8F9FA;
+    text-align: center;
+    transition: all 0.3s;
+}
+  .navbar {
+    height: 55px;
+    padding-top: 0px;
+  }
+  .messageTab {
+    height: 90px;
+    padding-top: 50px;
+  }
+}
 
+@media screen and (max-width: 615px) {
+  .messageTab {
+    font-size: small;
+  }
+}
 
 /* ***************************************************** */
 /* Footer Styling */

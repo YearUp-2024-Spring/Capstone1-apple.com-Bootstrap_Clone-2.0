@@ -7,10 +7,16 @@
   background-color: white;
   opacity: 0.8;
 }
+.nav-link {
+  color: white !important;
+}
+.dropdowns > div > li > a{
+  color: white;
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    /* background-color: #F8F9FA; */
+    background-color: #000000;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -24,6 +30,7 @@
 .navbar {
     height: 40px;
     padding-top: 25px;
+    background-color: black !important;
 }
 .navbar-transparent {
   opacity: 0.9;

@@ -291,6 +291,99 @@ body {
 	position: relative;
 }
 
+.visionLinks a {
+	text-decoration:none;
+	color: rgba(255, 0, 0, 0.699);
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.visionLinks a:after {
+font-family: "FontAwesome";
+font-weight: 900;
+content: "\f105";
+padding-left: 10px;
+}
+
+
+.video-container {
+position: relative;
+overflow: hidden;
+}
+
+.scrolling-text {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+    position: absolute;
+	top: 0;
+	padding-top: 150px;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.scrolling-text a {
+	text-decoration: none;
+	color: rgb(255, 115, 0);
+	font-size: 20px;
+	border: rgb(255, 115, 0) solid;
+	padding: 20px;
+	border-radius: 35px;
+}
+
+
+.scrolling-text a:before {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f144";
+	padding-right: 10px;
+}
+
+.look2 a {
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	border: rgb(0, 0, 0) solid;
+	padding: 20px;
+	border-radius: 35px;
+	position: absolute;
+	top: 80%;
+	left: 45%;
+}
+
+.look2 a:before {
+	font-family: "FontAwesome";
+	content: "\2b";
+	padding-right: 10px;
+}
+
+.look3 a {
+	background-color: rgb(219, 80, 25) !important;
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	border: rgb(255, 255, 255) solid;
+	padding: 20px;
+	width: 420px;
+	text-align: center;
+	border-radius: 35px;
+	position: absolute;
+	left: 50%;
+}
+
+.look3 a:before {
+	font-family: "FontAwesome";
+	content: "\2b";
+	padding-right: 10px;
+}
+
+
 .feature img {
 	width: 25px;
 }

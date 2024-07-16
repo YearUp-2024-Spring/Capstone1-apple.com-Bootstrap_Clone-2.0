@@ -133,21 +133,65 @@
 .links-wrapper ul li a:hover {
   color: #000;
 }
-.links-wrapper ul li a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
+
+/* First Highlight Section */
+.first-hightlight-wrapper {
+  background-image: url("/images/hero_ipadpro__bpt7a9d8sh42_large.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: -8px;
+  /* padding: -px 20px; */
+  color: #fff;
 }
+.title-wraper {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 56px;  
+  padding-top: 40px;
+}
+.description-wrapper {
+  font-size: 26px;
+  margin-top: -15px;
+  font-weight: 600;
+}
+
+.learnMoreBtn {
+  background-color: rgb(12, 94, 172);
+  border: solid 5px rgb(12, 94, 172);
+  border-radius: 24px;
+  padding: 5px 25px;
+  margin-right: 15px;
+  
+}
+
+.learnMoreBtn a {
+  color: white !important;
+ 
+}
+
+.buyBtn {
+  border: solid 2px rgb(12, 94, 172);
+  border-radius: 24px;
+  padding: 5px;
+}
+
+.buyBtn a {
+  color: rgb(12, 94, 172) !important;
+  padding: 35px;
+}
+
 
 
 /* Second Highlight Section */
 .second-hightlight-wrapper {
-  background-image: url("../images/home/iphone11-pro-bg.jpg");
-  height: 580px;
+  background-image: url("/images/Buy\ Mac.JPG");
+  height: 680px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   text-align: center;
   padding: 65px 20px;
   color: #fff;
@@ -168,13 +212,13 @@
 
 /* Third Highlight Section */
 .third-highlight-wrapper {
-  background-image: url("../images/home/iphone11-bg.jpg");
-  height: 580px;
+  background-image: url("../images/hero_iphone_family_a__c7v3mvx3jv42_large.jpg");
+  height: 680px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 65px 20px;
+  color: white;
 }
 
 
@@ -193,48 +237,93 @@
   text-align: center;
   width: 48.5%;
   margin: 1% 0.5% 0% 1%; 
-  padding-top: 54px;
+  padding-top: 40px;
 }
 .fourth-heghlight-wrapper .left-side-wrapper {
-  background-image:  url("../images/home/watch-series-5.jpg"); 
+  background-image:  url("../images/promo_mac_does_that__ckozfqcs65w2_large.jpg"); 
+}
+.title-leftSide{
+  font-size: 40px;
+  font-weight: 600;
+  font-family:sans-serif;
 }
 .right-side-wrapper {
   height: 580px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   text-align: center;  
   width: 48.5%;
   margin: 1% 1% 0% 0.5%; 
   padding-top: 54px;
 }
 .fourth-heghlight-wrapper .right-side-wrapper {
-  background-image:  url("../images/home/apple-card.jpg"); 
+  background-image:  url("../images/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg"); 
 }
 .description-wraper {
   max-width: 430px;
   margin: 0 auto;
   padding: 10px; 
+  font-weight: 500;
+  font-size: 20px;
 }
 
 
 /*Fivth Highlight Section */
-.fifth-heghlight-wrapper {
+.fifth-highlight-wrapper {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   background: #fff;
 }
-.fifth-heghlight-wrapper .left-side-wrapper {
-  background-image:  url("../images/home/apple-tv-background.jpg"); 
+.fifth-highlight-wrapper .left-side-wrapper {
+  background-image:  url("../images/promo_ai__couihqxznyvm_large.jpg"); 
 }
-.fifth-heghlight-wrapper .right-side-wrapper {
-  background-image:  url("../images/home/air-pods.jpg"); 
+.fifth-highlight-wrapper .right-side-wrapper {
+  background-image:  url("../images/promo_suerte__e8tk7dvkjw2u_large.jpg"); 
   color: #fff; 
   background-size: initial;
   background-color: #000;
   background-position: bottom;
 }
+.learnMoreBtn2 {
+  margin-top: 400px;
+  background-color: rgb(255, 255, 255);
+  border: solid 5px rgb(255, 255, 255);
+  border-radius: 24px;
+  padding: 5px 25px;
+  margin-right: 15px;
+  
+}
+
+.learnMoreBtn2 a {
+  color: rgb(66, 66, 66) !important;
+ 
+}
+
+.watchBtn {
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 24px;
+  padding: 5px;
+}
+
+.watchBtn a {
+  color: rgb(255, 255, 255) !important;
+  padding: 15px;
+}
+
+.buyBtn2 {
+  border: solid 2px rgb(12, 94, 172);
+  border-radius: 24px;
+  padding: 5px;
+}
+
+.buyBtn2 a {
+  color: rgb(12, 94, 172) !important;
+  padding: 10px;
+}
+
+
 .logo-wrapper {
   font-size: 40px;
   font-weight: bold;
@@ -256,20 +345,22 @@
 
 
 /*Sixth Highlight Section */
-.sixth-heghlight-wrapper {
+.sixth-highlight-wrapper {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   background: #fff;
 }
-.sixth-heghlight-wrapper .left-side-wrapper {
-  background-image:  url("../images/home/macbook-pro.jpg"); 
+.sixth-highlight-wrapper .left-side-wrapper {
+  background-image:  url("../images/promo_apple_card__5cm7draujpey_large.jpg"); 
   background-size: initial;
   background-color: #fafafa;
   background-position: bottom;
+  padding-top: 20px;
 }
-.sixth-heghlight-wrapper .right-side-wrapper {
-  background-image:  url("../images/home/new-ipad.jpg"); 
+.sixth-highlight-wrapper .right-side-wrapper {
+  background-image:  url("../images/promo_iphone_tradein__bugw15ka691e_large.jpg"); 
+  padding-top: 20px;
 }
 .product-title-small {
   font-weight: 700;
@@ -279,6 +370,12 @@
 
 
 /* ********************************************************* */
+
+
+
+
+
+
 
 
 

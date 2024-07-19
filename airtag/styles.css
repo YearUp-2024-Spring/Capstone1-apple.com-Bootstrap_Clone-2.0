@@ -1,0 +1,1038 @@
+body {
+    
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 31);
+    font-style: normal;
+}
+h2 {
+    white-space: nowrap;
+}
+
+
+.navbar, footer {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('https://www.apple.com/v/airtag/a/images/meta/og__buqyyb4zx3oy_overview.png') no-repeat center center;
+    background-size: cover;
+    height: 200vh;
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+   
+    
+}
+.foreground-png{
+    transform: scale(.6);
+    margin-top: 10%;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+    font-weight: 700;
+    
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+    
+}
+@media (max-width: 767.98px) {
+    .hero-section {
+        margin-top: 25%; /* Adjust as needed */
+         /* Adjust as needed */
+         height: 400vh;
+         
+    }
+}
+
+
+.hero-section .main-paragraph {
+    font-size: 5rem; /* Make this paragraph larger */
+   
+}
+.hero-section .sub-paragraph {
+    margin-bottom: 20px; /* Add space below this paragraph */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }}
+.features-section, .technical-specifications-section, .cta-section {
+    padding: 60px 0;
+}
+.image-container {
+   margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+}
+
+.side-by-side-image {
+    max-width: 95%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+}
+/* CSS for Share AirTag Section */
+.section-share-airtag {
+    background-color: #f0f0f5; /* Adjust the background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-share-airtag .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 150vh ;
+}
+
+.section-share-airtag .violator {
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 80px;
+    margin-top: -15%;
+    margin-bottom: 0%;
+    transform: scale(1.2);
+    margin-left: 44% ;
+    display: inline-block;
+    border: 1px solid;
+    background: rgba(0,0,0,0);
+    border-color: #bf4800;
+    color: #bf4800;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-radius: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+.section-share-airtag .intro-headline {
+    font-size: 5.0rem;
+    font-weight: 550;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    height: 20vh; /* Full viewport height for centering */
+    transform: scale(.9);
+    margin-left: -5%;
+    
+    
+}
+
+.section-share-airtag .intro-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    justify-content: center;
+    text-align: center;
+    transform: scale(1.2);
+    margin-top: 0%;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 15%;
+}
+@media (max-width: 767.98px) {
+     .intro-headline {
+        white-space: normal !important;
+        font-size: 1.5rem; /* Adjust font size for mobile */
+        padding-top: 5rem; /* Adjust top padding for better spacing */
+        padding-bottom: 2rem; /* Adjust bottom padding for better spacing */
+    }
+    .intro-copy p {
+        white-space: normal !important;
+        font-size: 1rem; /* Adjust font size for mobile */
+        padding-top: 5rem; /* Adjust top padding for better spacing */
+        padding-bottom: 2rem; /* Adjust bottom padding for better spacing */
+        max-width: 100%;
+        text-align: center; /* Align text to the left */
+        margin-left: .5rem; /* Adjust left margin */
+        padding-right: 10rem;
+    }
+    }
+    .violator {
+        font-size: 0.9rem; /* Adjust font size for mobile */
+        margin-bottom: 1rem; /* Adjust bottom margin */
+        padding-bottom: 10rem;
+        padding-top: .5rem;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    .section-share-airtag .container {
+        padding-top: 1rem; /* Adjust top padding for better spacing */
+        padding-bottom: 2rem; /* Adjust bottom padding for better spacing */
+    }
+
+
+.section-share-airtag .column-image-share-airtag {
+    margin-top: 30px;
+    
+}
+
+.section-share-airtag .image-feature {
+    width: 100%;
+    margin-top: 20%;
+    height: auto;
+    transform: scale(1.0);
+    background: url('your-image-url.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+    min-height: 300px; /* Adjust the minimum height as needed */
+    z-index: -2;
+}
+.section-features {
+    background-color: rgb(255, 255, 255); /* Adjust the background color */
+    padding: 5px 0;
+    text-align: left;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+    color: #333;
+    height: 275vh;
+}
+
+.section-features .section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+    float: left;
+    margin-right: 500px; /* Increase the space on the right */
+}
+.content-wrapper {
+    display: flex;
+    margin-top: -50%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure the items stay side by side */
+}
+
+.column-copy-ping {
+    flex: 1;
+    min-width: 300px; /* Adjust as necessary */
+    padding: -60px; /* Optional: Add padding for better spacing */
+    margin-left: -300px; /* Increase the space on the right */
+    transform: scale(.9);
+    margin-top: 0%;
+    z-index: 7;
+    width: 190%;
+}
+
+.image-container-ping {
+    margin-top: -30%;
+    flex: 1;
+    min-width: 300px; /* Adjust as necessary */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    text-align: center; /* Center the image horizontally */
+    margin-left: 20px; /* Increase the space on the left */
+}
+
+.image-feature-ping {
+    max-width: 190%;
+    height: auto;
+    transform: scale(1.8);
+    float: right;
+    margin-left: 700px; /* Increase the space on the left */
+}
+
+
+.section-features .headline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.copy-wrapper {
+    text-align: left;
+    margin-left: 400px; /* Adjust as needed */
+   width: 70%;
+    transform: scale(1.6);
+    
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+     /* Adjust as needed */
+}
+.ultra-wideband-image {
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    transform: scale(1.8);
+    margin-left: -5px;
+}
+@media (max-width: 767.98px) {
+    .order-md-1,
+    .order-md-2 {
+        order: 0 !important;
+    }
+}
+
+.section-features .body-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.section-features .column-image-ping, .section-features .column-image-ultra-wideband {
+    margin-top: 150px;
+    z-index: 5;
+    margin-right: 800px;
+}
+
+.section-features .image-feature {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+    background: url('your-image-url.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 300px; /* Adjust the minimum height as needed */
+}
+
+.inline-video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+}
+
+.inline-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* CSS for Network Section */
+.section-network {
+    background-color: #f0f0f5; /* Adjust the background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-network .section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -10%;
+    width: 100%;
+    height: auto;
+    
+}
+
+.section-network .network-intro .typography-site-headline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+    transform: scale(1.8);
+    padding-bottom: 5%;
+    margin-right: 190%;   
+}
+
+.section-network .network-intro .network-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    margin-left: 100px;
+    
+}
+.section-network .network-intro .network-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    margin-left: 100px;
+    
+}
+
+
+.section-network .row-how-works .img-fluid, .section-network .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+    transform: scale(0.7);
+    margin-top: -40%;
+    margin-right: -100%;
+}
+
+.section-network .row-how-works .canvas-wrapper, .section-network .row-lost-mode .canvas-wrapper {
+    margin-top: 30px;
+}
+
+.section-network .row-how-works .headline, .section-network .row-lost-mode .headline {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: -40%;
+    padding-right: 800%;
+}
+
+.section-network .row-how-works .body-copy p, .section-network .row-lost-mode .body-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+/* CSS for Privacy Section */
+.section-privacy {
+    background-color: #f0f0f5; /* Adjust the background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-privacy .section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-privacy .privacy-headline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-privacy .typography-site-body p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.section-privacy .row-logical .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+}
+
+.section-privacy .row-logical .copy-wrapper {
+    margin-top: 30px;
+}
+
+.section-privacy .row-logical .typography-site-tile p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+/* CSS for More Features Section */
+.section-more-features {
+    background-color: #f0f0f5; /* Adjust the background color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-more-features .section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-more-features .headline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-more-features .body-copy p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.section-more-features .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+}
+/* Tiles Section */
+.section-tiles {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.section-tiles .tile-headline {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-tiles .tile-copy p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-tiles .img-fluid {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+/* AR Section */
+.section-ar {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+}
+
+.background-wrapper {
+    padding: 20px;
+}
+
+.ar-copy-body {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo-ar {
+    margin: 0 auto 20px auto;
+    background: url('/path-to-logo.png') no-repeat center center;
+    width: 100px;
+    height: 100px;
+}
+
+.typography-site-subhead {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.ar-copy .icon-ar {
+    display: inline-block;
+    margin-right: 10px;
+    background: url('/path-to-icon.png') no-repeat center center;
+    width: 50px;
+    height: 50px;
+}
+
+.ar-copy .typography-site-body {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.quicklook-cta a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.quicklook-cta img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-ar {
+    margin: 0 auto;
+    background: url('/path-to-ar-image.png') no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+}
+/* Accessories Section */
+.section-accessories {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.background-wrapper {
+    padding: 20px;
+}
+
+.accessories-copy-body {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 10%;
+}
+
+.typography-site-headline {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.accessories-copy .typography-site-body {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.accessories-copy .icon-wrapper {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #007bff; /* Light blue color */
+    transition: color 0.3s;
+}
+
+.accessories-copy .icon-wrapper:hover {
+    color: #0056b3; /* Darker blue color on hover */
+}
+
+.accessories-copy .icon-copy {
+    margin-right: 5px;
+}
+
+.image-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-wrapper {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+
+.tile-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-accessories {
+    background-image: url('/path-to-accessories-image.png');
+}
+/* Accordion Styles */
+.section-tech-specs {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.accordion-button {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #333;
+}
+
+.accordion-body {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    color: #000;
+}
+.callout {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 2.23529em 8.33333% 2.11765em;
+    border-radius: 18px;
+    background-color: #f5f5f7;
+    border-color: rgba(0,0,0,0);
+    color: #1d1d1f
+}
+
+.callout>:first-child {
+    margin-top: 0
+}
+
+.callout>:last-child {
+    margin-bottom: 0
+}
+
+.callout:lang(ar) {
+    line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "SF Pro AR","SF Pro Gulf","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(ja) {
+    letter-spacing: 0em;
+    font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(ko) {
+    line-height: 1.58824;
+    letter-spacing: 0em;
+    font-family: "SF Pro KR","SF Pro Text","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(zh) {
+    letter-spacing: 0em
+}
+
+.callout:lang(th) {
+    line-height: 1.35296;
+    letter-spacing: 0em;
+    font-family: "SF Pro TH","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(zh-CN) {
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(zh-HK) {
+    font-family: "SF Pro HK","SF Pro Text","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(zh-MO) {
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Text","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout:lang(zh-TW) {
+    font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout .callout-title {
+    color: #1d1d1f
+}
+
+.callout-reduced {
+    border-radius: 15px
+}
+
+.callout-reduced .callout-title {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(ar) {
+    line-height: 1.33341;
+    font-family: "SF Pro AR","SF Pro Gulf","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(ja) {
+    line-height: 1.25;
+    font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(ko) {
+    line-height: 1.29167;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(th) {
+    line-height: 1.375;
+    font-family: "SF Pro TH","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(zh-CN) {
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(zh-HK) {
+    font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(zh-MO) {
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-reduced .callout-title:lang(zh-TW) {
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-icon {
+    margin-bottom: 15px
+}
+
+.callout-icon:first-child {
+    margin-top: 5px
+}
+
+.callout-title {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0
+}
+
+.callout-title:lang(ar) {
+    line-height: 1.34375;
+    font-family: "SF Pro AR","SF Pro Gulf","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(ja) {
+    line-height: 1.21875;
+    font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(ko) {
+    line-height: 1.21875;
+    font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(th) {
+    line-height: 1.375;
+    font-family: "SF Pro TH","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(zh-CN) {
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(zh-HK) {
+    font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(zh-MO) {
+    font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+.callout-title:lang(zh-TW) {
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+    .callout-title {
+        font-size:28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ko) {
+        line-height: 1.25;
+        font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(th) {
+        line-height: 1.39286;
+        font-family: "SF Pro TH","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ar) {
+        font-family: "SF Pro AR","SF Pro Gulf","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ja) {
+        font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-CN) {
+        font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-HK) {
+        font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-MO) {
+        font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-TW) {
+        font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .callout-title {
+        font-size:24px;
+        line-height: 1.16667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ar) {
+        line-height: 1.33341;
+        font-family: "SF Pro AR","SF Pro Gulf","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ja) {
+        line-height: 1.25;
+        font-family: "SF Pro JP","SF Pro Display","SF Pro Icons","Hiragino Kaku Gothic Pro","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3","ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(ko) {
+        line-height: 1.29167;
+        font-family: "SF Pro KR","SF Pro Display","SF Pro Icons","Apple Gothic","HY Gulim","MalgunGothic","HY Dotum","Lexi Gulim","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(th) {
+        line-height: 1.375;
+        font-family: "SF Pro TH","SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-CN) {
+        font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-HK) {
+        font-family: "SF Pro HK","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-MO) {
+        font-family: "SF Pro HK","SF Pro TC","SF Pro Display","SF Pro Icons","PingFang HK","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+
+    .callout-title:lang(zh-TW) {
+        font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif
+    }
+}
+
+.callout-environment {
+    background-color: #f6f6ee;
+    border-color: rgba(0,0,0,0);
+    color: #1d1d1f
+}
+
+.callout-environment .callout-title {
+    color: #548c8c
+}
+
+
+.tech-specs-section {
+    margin-bottom: 20px;
+}
+
+.tech-specs-section h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tech-specs-section ul {
+    padding-left: 20px;
+}
+
+
+.features-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.technical-specifications-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.technical-specifications-section ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* ***************************************************** */
+/* Footer Styling */
+
+.footer-wrapper {
+    background-color: #F5F5F7;
+    color: #747475;
+    font-size: 0.7em;
+  }
+.footer-wrapper ul {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-inline-start: 0px;
+  }
+.footer-wrapper ul a {
+    color: #515154;
+    text-decoration: none;
+  }
+.my-apple-wrapper {
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+.copyright {
+    margin-top: 15px;
+  }
+.footer-country {
+    margin-top: 8px;
+  }
+.flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+.footer-country-name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+.footer-links-terms ul {
+    display: flex;
+  }
+.footer-links-terms ul li {
+    padding: 0 10px;
+    border-right: 1px solid #d2d2d7;
+  }
+.footer-links-terms ul li:first-child {
+    padding-left: 0;
+  }
+.footer-links-terms ul li:last-child {
+    border-right: 0;
+  }
+  
+.footer-links-wrapper h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+  }
+.footer-wrapper ul li {
+    padding: 4px 0;
+  }
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 10px;
+    margin-bottom: 20px;
+  }
+.upper-text-container a {
+    color: #515154;
+  }

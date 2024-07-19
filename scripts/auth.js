@@ -64,6 +64,6 @@ function logout () {
         .finally(() => {
 
             window.localStorage.removeItem("login-data");
-            window.location.assign("/"); 
+            window.location.assign("/login.html"); 
         });
 }

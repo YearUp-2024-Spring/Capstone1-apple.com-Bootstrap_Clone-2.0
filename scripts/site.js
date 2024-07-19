@@ -35,7 +35,7 @@ function signInBtnClicked(e) {
                 window.localStorage.setItem("login-data", JSON.stringify(logInData));
                 document.querySelector("#messageDiv").className = "text-success text-center mt-3"
                 document.querySelector("#messageDiv").innerHTML = "***Succesfully signed in***"
-                setTimeout("location.href = 'index.html';", 2000);
+                setTimeout("location.href = 'index2.html';", 1300);
             }
         });
 }
